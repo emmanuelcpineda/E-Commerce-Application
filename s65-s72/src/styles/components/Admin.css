@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Chivo:ital,wght@0,600;1,500&family=Dela+Gothic+One&display=swap');
+
+.admin-container {
+	position: absolute;
+	width: 100%;
+	padding: 100px;
+	font-family: Chivo, sans-serif;
+}
+
+.button {
+	margin: 20px 0;
+	position: relative;
+	left: 32rem;
+	right: 32rem;
+	border: 1px solid black;
+}
+
+.button:hover {
+	color: var(--clrLime100);
+}
+
+.add-container {
+	position: relative;
+	inset: 5rem 20rem;
+	border-radius: 10px;
+	font-family: Chivo, sans-serif;
+}
+
+.addproduct-card {
+	background-color: var(--clrLime100);
+
+}
+
+.card-body {
+	padding: 3em 4em;
+}
+
+.edit-body {
+	position: relative;
+	inset: 5px 350px;
+	width: 30rem;
+}
+
+.edit-button {
+	position: relative;
+	inset: 20px 350px;
+}

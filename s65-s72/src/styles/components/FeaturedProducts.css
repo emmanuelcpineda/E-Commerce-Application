@@ -1,0 +1,29 @@
+ @import url('https://fonts.googleapis.com/css2?family=Anton&family=Chivo:ital,wght@0,600;1,500&family=Dela+Gothic+One&display=swap');
+
+.hot-products{
+	font-family: Chivo, sans-serif;
+	margin: 10px;
+	background-color: var(--clrLime200)!important;
+}
+
+.price {
+	position: relative;
+	inset: 10px 100px;
+}
+
+.title {
+	font-family: Chivo, sans-serif;
+	font-size: 3rem;
+	font-weight: 600
+}
+
+.hot {
+	text-decoration: none;
+	color: black;
+}
+
+.hot:hover {
+	color: blue;
+	background-color: var(--clrOrange100)!important;
+	cursor: pointer;
+}

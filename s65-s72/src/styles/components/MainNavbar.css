@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Chivo:ital,wght@0,600;1,500&family=Dela+Gothic+One&display=swap');
+
+/*----nav bar styling ---*/ 
+.main-nav {
+  background-color: var(--clrAmber400); 
+  padding: 20px; 
+  width: 100%;
+  height: 5rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font-family: Chivo, sans-serif;
+  font-weight: 500;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto; 
+}
+
+.brand-logo {
+  margin-left: 50px;
+	height: 3em;
+	width: 5em;
+}
+
+
+/*--- hide nav when screen is small ----*/
+@media (max-width: 768px) {
+  .nav .nav-child {
+    display: none;
+  }
+}
+

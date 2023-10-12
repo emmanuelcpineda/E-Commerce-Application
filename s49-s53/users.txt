@@ -1,0 +1,7 @@
+admin: 
+email: john@smith.net
+password: admin_john
+
+user:
+email: wanda@maximoff.net
+password: user_wanda

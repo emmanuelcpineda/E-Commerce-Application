@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dela+Gothic+One&display=swap');
+
+/*------ Hero Styling ------*/
+.hero-section {
+/*  background-image: url('../../images/hero.jpg');*/
+  width: 100%;
+  object-position: 80% 20%;
+  object-fit: cover;
+  max-height: 90vh;
+}
+
+.caption {
+  width: 50em;
+  height: 17em;
+  position:absolute;
+  inset: 200px 300px;
+  z-index: 1;
+  color: yellow;
+  border: 5px solid var(--clrOrange100);
+  padding: 10px;
+}
+
+.hero-title {
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 4rem;
+  color: var(--clrLime100);
+}
+
+.subtitle {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5rem;
+  color: var(--clrOrange100);
+  padding-bottom: 20px;
+}
+
+

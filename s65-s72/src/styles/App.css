@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Chivo:ital,wght@0,600;1,500&family=Dela+Gothic+One&display=swap');
+
+:root {
+  --clrRose400: #fb7185;
+  --clrRed900: #7f1d1d;
+  --clrAmber400: #fbbf24;
+  --clrLime200: #d9f99d;
+  --clrYellow200: #fef08a;
+  --clrLime100: #fef3c7;
+  --clrOrange100: #ffedd5;
+  --clrYellow300: #ca8a04;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+
+input {
+  width: 100px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

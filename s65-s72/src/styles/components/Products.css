@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Chivo:ital,wght@0,600;1,500&family=Dela+Gothic+One&display=swap');
+
+.products-title{ 
+	padding: 3rem 0;
+	font-family: 'Dela Gothic One', sans-serif; 
+	font-weight: 500;
+	font-size: 4rem;
+	text-align: center;
+} 
+
+.product-container { 
+	height: 100%;
+	width: 100%;
+	padding: 0 100px;
+	font-family: Chivo, sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+	text-align: center;
+}
+
+.product-card {
+	max-height: 65em;
+	max-width: 58.4em;
+	min-width: 58em;
+}
+
+.product-info {
+	font-family: Chivo, sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+.product-info:hover {
+	color: blue;
+	background: var(--clrLime200);
+}
+
+.view-product-container {
+	position: relative;
+	inset: 40px 400px;
+	width: 500px;
+	display: flex;
+	font-family: Chivo, sans-serif;
+
+}
+
+.title {
+	font-weight: 600;
+	padding: 20px;
+	text-align: center;
+}
+
+.img{
+	position: relative;
+	inset: 0 21px;
+}
+
+.body {
+	padding: 20px 20px;
+}
+
+.checkout-body{
+	padding: 0px 70px;
+}
+
+.checkout-button {
+	position: relative;
+	inset: 10px 68px;
+}

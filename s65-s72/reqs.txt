@@ -1,0 +1,45 @@
+Minimum Requirements: 
+- Register Page
+	- All fields must be filled and passwords must match
+	- redirect user to the login page after successful registration
+- Login Page
+	- Redirect the user to either the homepage or products catalog once successfully authenticated
+- Products Catalog Page
+	- Retrieve all active products 
+	- Retrieve single product 
+- Admin Dashboard
+	- Create Product 
+	- Retrieve All Products (available or unavailable)
+	- Update Product Information
+	- Deactivate/Reactivate product 
+- Checkout Order
+	- Non-Admin User Checkout
+	- once the customer checks the details of the products they can see the checkout buton
+
+Other Requirements:
+- Fully-functioning Navbar with proper dynamic rendering (Register/Login links for users not logged in, Logout link for users who are etc.)
+- App must be a single-page and utilize proper routing (no navigating to other page/reloading)
+- Registration/Login Pages must be inaccessible to users who are logged in
+- Apart from users who are not logged-in. Admin must not be able to add products to their cart
+- Do not create a website other than the required e-commerce app
+- do not use templates found in other sites or existing premade NPM packages that replicates the required features
+
+Stretch Goals: 
+- Full responsiveness across mobile/tablet/desktop screen sizes
+- Product Images
+- A featured products section
+- View User Details(Profile) - You can change their password
+- setting a user as an admin
+- Add to cart feature
+- Order History
+	- Retrieve a list of all orders made by user
+	- admin feature to retrieve a list of all orders made by all users
+
+Cart Feature 
+- Show all items the user has added to their cart (and their quantities)
+- Change product quantities
+- remove products from cart
+- subtotal each item
+- total price for all items
+- a working checkout button/functionality
+- when the user checks their cart out, redirect them to either the homepage or the order history page
